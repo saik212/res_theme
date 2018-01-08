@@ -17,15 +17,25 @@ body {
 	}
 }
 
-#top-nav {
+#nav-top {
 	display: none;
+	background-color: #be5d39;
+	color: #fff;
+}
+
+#nav-brand {
+	color: #fff;
+}
+
+#navbar-button > .navbar-toggle > .icon-bar {
+	background-color: #fff;
 }
 
 @media screen and (max-width: 992px) {
-	#sidenav {
+	#nav-side {
 		display: none;
 	}
-	#top-nav {
+	#nav-top {
 		display: block;
 	}
 }
@@ -99,7 +109,7 @@ ul {
 	background: #444;
 }
 
-#sidenav {
+#nav-side {
 	position: fixed;
 	top: 0;
 	left: 0;
